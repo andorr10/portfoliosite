@@ -1,0 +1,140 @@
+/*---------------------------------------------------------  */
+/*                CSS FOR index section                  */
+/*---------------------------------------------------------  */
+
+
+
+.navbar {
+  overflow: hidden;
+  /*background-color: #333;*/
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.navbar ul {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  opacity: 50%;
+}
+
+
+
+
+
+/*---------------------------------------------------------  */
+/*                CSS FOR Projects section                  */
+/*---------------------------------------------------------  */
+/* ================================================================================ */
+/* ============================== PARALLEX SCROLL ================================= */
+
+/* setting the general setting for the TEXT in the paralax scroll */
+.leading-statement{
+	font-family:"Lato", sans-serif;
+	width:38%;
+	color:#eff6ff;
+	letter-spacing:1px;
+	text-transform:uppercase;
+	font-size: 60px;
+	width:70%;
+	margin:auto;
+	padding-top:16%;
+	text-align: center;
+}
+
+.projectLink{
+  font-family:"Lato", sans-serif;
+  width:38%;
+  color:#eff6ff;
+  letter-spacing:1px;
+  text-transform:uppercase;
+  font-size: 60px;
+  width:70%;
+  margin:auto;
+  padding-top:16%;
+  text-align: center;
+}
+/* .projectLink:hover{
+  border-style: solid;
+  border-color: white;
+} */
+
+/* adding slight TEXT adjustments to other text boxes */
+.statement-01{
+	font-size: 45px;
+	padding-top:12%;
+}
+
+.statement-02{
+	font-size: 55px;
+	padding-top:15%;
+}
+
+/* adding description TEXT when hovering */
+.parallaw-div-00:hover{
+  background-color: white;
+}
+
+/* Section 00 -------------------------------------------- */
+/* settings for parallax div 00 */
+.parallax-div-00 {
+	background: url("../images/GainzGrains.jpg");
+	width:90%;
+	margin:5% 5% 0 5%;
+	height:400px;
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment: fixed;
+	transition:.4s ease-in-out;
+}
+
+
+/* Section 01 -------------------------------------------- */
+/* settings for parallax div 01 */
+.parallax-div-01 {
+	background: url("../images/ExtremeCapitalism.jpg");
+	width:90%;
+	margin-left:5%;
+	margin-top:5%;
+	height:400px;
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment: fixed;
+	transition:.4s ease-in-out;
+}
+
+
+
+/* Section 02 -------------------------------------------- */
+/* settings for parallax div 02 */
+.parallax-div-02 {
+	background: url("../images/Codebay.jpg");
+	width:90%;
+	margin:5% 5%;
+	height:400px;
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment: fixed;
+	transition:.4s ease-in-out;
+}
+
+
+
+
+
+/*---------------------------------------------------------  */
+/*                CSS FOR Contacts section                  */
+/*---------------------------------------------------------  */
+
+
+
+
+
+
+/*---------------------------------------------------------  */
+/*                CSS FOR About section                  */
+/*---------------------------------------------------------  */
