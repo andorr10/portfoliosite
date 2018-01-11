@@ -2,8 +2,6 @@
 /*                CSS FOR index section                  */
 /*---------------------------------------------------------  */
 
-
-
 .navbar {
   overflow: hidden;
   /*background-color: #333;*/
@@ -101,6 +99,10 @@
     cursor: pointer;
 }
 
+.icon{
+  float: left;
+}
+
 
 
 
@@ -145,12 +147,12 @@
 /* adding slight TEXT adjustments to other text boxes */
 .statement-01{
 	font-size: 45px;
-	padding-top:12%;
+	padding-top:7%;
 }
 
 .statement-02{
 	font-size: 55px;
-	padding-top:15%;
+	padding-top:8%;
 }
 
 /* adding description TEXT when hovering */
