@@ -32,6 +32,33 @@
    background-repeat: no-repeat;
  }
 
+ #index-body{
+ 	background: url("../images/Home.jpg");
+	width:100%;
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment: fixed;
+
+}
+#main-title{
+	margin-top:25%;
+	color:white;
+	text-align: center;
+}
+
+#main-title h1{
+	font-family: "Playfair Display", serif;
+	font-size: 85px;
+}
+
+#main-title p{
+	font-family:"Lato", sans-serif;
+	text-align: center;
+	margin-top:1.5%;
+	font-size:28px;
+	text-transform: uppercase;
+}
+
 /*---------------------------------------------------------  */
 /*                CSS FOR Modal section                  */
 /*---------------------------------------------------------  */
