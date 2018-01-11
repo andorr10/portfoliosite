@@ -29,6 +29,9 @@
    background-image: none;
    background-repeat: no-repeat;
  }
+ .navlink{
+   border-radius:15px;
+ }
 
  #index-body{
  	background: url("../images/Home.jpg");
@@ -36,10 +39,9 @@
 	background-repeat:no-repeat;
 	background-size:cover;
 	background-attachment: fixed;
-
 }
 #main-title{
-	margin-top:25%;
+	margin-top:15%;
 	color:white;
 	text-align: center;
 }
@@ -69,7 +71,7 @@
     left: 0;
     top: 0;
     width: 100%; /* Full width */
-    height: 100%; /* Full height */
+    height: 150%; /* Full height */
     overflow: auto; /* Enable scroll if needed */
     background-color: rgb(0,0,0); /* Fallback color */
     background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
@@ -81,7 +83,8 @@
     margin: 15% auto; /* 15% from the top and centered */
     padding: 20px;
     border: 1px solid #888;
-    width: 80%; /* Could be more or less, depending on screen size */
+    width: 80%;
+    height: 20%; /* Could be more or less, depending on screen size */
 }
 
 /* The Close Button */
@@ -101,9 +104,8 @@
 
 .icon{
   float: left;
+  margin-left: 1em;
 }
-
-
 
 
 
@@ -206,16 +208,53 @@
 
 
 
-
-/*---------------------------------------------------------  */
-/*                CSS FOR Contacts section                  */
-/*---------------------------------------------------------  */
-
-
-
-
-
-
 /*---------------------------------------------------------  */
 /*                CSS FOR About section                  */
 /*---------------------------------------------------------  */
+
+#about-body{
+  background: url("../images/AboutBackground.jpg");
+	width:100%;
+  height:100%
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment: fixed;
+}
+
+#about-section{
+  /* background: url("../images/AboutBackground.jpg"); */
+  background-color: rgba(179, 179, 179, 0.3);
+  /* opacity: 40% */
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-attachment: fixed;
+  margin-top:25%;
+  margin-left:25%;
+  width:50%;
+  height:100%;
+  color:black;
+  text-align: center;
+  border: solid;
+  border-color:rgba(179, 179, 179);
+  border-radius:15px;
+  padding-top: 2%;
+}
+.headshot{
+  border-radius:15px;
+
+}
+#bio-section{
+  float: left
+}
+#bio-info{
+	margin-top:05%;
+	color:white;
+	text-align: center;
+}
+/* .skill-type{
+  float: left;;
+}
+.skill-item{
+  float:left;
+  margin-left:auto;
+} */

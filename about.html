@@ -43,22 +43,72 @@
               <a class="navbar-brand" href="index.html">AO | About</a>
             </div>
             <ul class="nav navbar-nav">
-              <li><a href="about.html">About</a></li>
-              <li><a href="projects.html">Projects</a></li>
-              <li><a href="assets/images/AndrewOrrResume.pdf" target="_blank">Resume</a></li>
-              <li id = "myID"><a>Contact</a></li>
+              <li class = "navlink"><a href="about.html">About</a></li>
+              <li class = "navlink"><a href="projects.html">Projects</a></li>
+              <li class = "navlink"><a href="assets/images/AndrewOrrResume.pdf" target="_blank">Resume</a></li>
+              <li class = "navlink" id = "myID"><a>Contact</a></li>
             </ul>
           </div>
         </nav>
+
+				<div id="myModal" class="modal">
+				  <!-- Modal content -->
+				  <div class="modal-content">
+				    <span class="close">&times;</span>
+				    <h3>Please feel free to email me at:</h3>
+						<h4><a href= "mailto:andorr10@gmail.com" target = "_blank">andorr10@gmail.com</a></h4>
+						<p></p>
+						<h3> Or connect with me on social media:</h3>
+						<ul>
+							<li class = "icon">
+								<a  target= "_blank" href="https://github.com/andorr10"><img class="logosize" src="assets/images/github_logo.svg" alt="Git Hub Logo"></a>
+							</li>
+							<li class = "icon">
+								<a  target= "_blank" href="https://www.linkedin.com/in/andrewworr"><img class="logosize" src="assets/images/linkedin_logo.svg" alt="Linked In Logo"></a>
+							</li>
+							<!-- <li class = "icon">
+								<a  target= "_blank" href="https://stackoverflow.com/users/8658188/andrew-orr"><img class="logosize" src="assets/images/stackflow.svg" alt="Stacked Overflow Logo"></a>
+							</li> -->
+						</ul>
+
+				  </div>
+
+				</div>
       </header>
 
-			<div id="myModal" class="modal">
-				<!-- Modal content -->
-				<div class="modal-content">
-					<span class="close">&times;</span>
-					<p>Please feel free to reach me at any of the following:</p>
+			<section id="bio-info">
+
+				<div data-aos="fade-up" id="about-section">
+					<div>
+						<img class="headshot clearfix" src="assets/images/aorr_headshot.jpg">
+						<br></br>
+
+						<p>I'm a Full Stack WebDevloper with a background in Healthcare and Wellness Consulting.
+							  Originally from Southern California, but now living in Austin, Tx.
+								 My passions include hiking, beach volleyball, soccer, reading Hackernoon and Settlers of Catan.
+						</p>
+
+						<h3>Skills</h3>
+
+							<h4 class="skill-type">Front-End</h4>
+							<p>HTML, CSS, JavaScript, JQuery</p>
+
+
+							<h4 class="skill-type">Back-End</h4>
+							<p>Node.js, Express, Sequelize, Mongoose</p>
+							<p> Passport.js, Socket.io, React JS, Handlebars JS </p>
+
+							<h4 class="skill-type">Database</h4>
+							<p>Firebase, MySQL, MongoDB</p>
+
+
 				</div>
-			</div>
+
+					<!-- <button type="button"> <a href="portfolio.html"> EXPLORE </a> </button> -->
+				</div>
+
+			</section>
+
 
 
 
